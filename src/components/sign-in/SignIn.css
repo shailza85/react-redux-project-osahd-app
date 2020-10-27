@@ -1,0 +1,219 @@
+.logoSignIn {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.welcome {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.statementSignIn {
+  font-size: 13px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.signUpButton {
+  background-color: rgb(236, 138, 29);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  width: 59%;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-top: -10px;
+  border: none;
+  padding: 4px;
+}
+
+.signUpButton:hover {
+  background-color: rgb(79, 84, 180);
+}
+
+.input1 {
+  margin-top: 30px;
+  border-radius: 20px;
+  width: 200px;
+  height: 22px;
+  text-align: center;
+  margin-bottom: 20px;
+  border: none;
+}
+
+.input2 {
+  border-radius: 20px;
+  width: 200px;
+  height: 22px;
+  text-align: center;
+  margin-bottom: 30px;
+  border: none;
+}
+
+.fieldSignIn {
+  text-align: center;
+  color: rgb(255, 0, 0);
+}
+
+.signInButton {
+  background-color: rgb(236, 138, 29);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  width: 59%;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-top: 40px;
+  margin-bottom: 100px;
+  border: none;
+  padding: 4px;
+}
+
+.signInButton:hover {
+  background-color: rgb(79, 84, 180);
+}
+
+.blueSolid {
+  background-color: rgb(43, 175, 203);
+  width: 250px;
+  height: 140px;
+  margin-left: 56px;
+  border-radius: 30px;
+  margin-top: 40px;
+}
+
+.blueOpacity {
+  background-color: rgba(43, 175, 203, 0.4);
+  width: 310px;
+  height: 400px;
+  margin-left: 26px;
+  border-radius: 30px;
+  margin-top: -430px;
+}
+
+/*For tablet and desktop*/
+
+@media screen and (min-width: 768px) {
+  .signUpButton {
+    width: 23%;
+    margin-left: 140px;
+  }
+  .input1 {
+    margin-top: 30px;
+    border-radius: 20px;
+    width: 200px;
+    height: 22px;
+    margin-bottom: 20px;
+    margin-left: -5px;
+  }
+  .input2 {
+    margin-left: -5px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    width: 200px;
+    height: 22px;
+  }
+  .fieldSignIn {
+    margin-top: 150px;
+    margin-left: -130px;
+    color: rgb(255, 0, 0);
+  }
+  .signInButton {
+    width: 23%;
+    margin-top: 50px;
+    margin-left: 140px;
+  }
+  .blueSolid {
+    background-color: rgb(43, 175, 203);
+    width: 400px;
+    height: 140px;
+    margin-left: 320px;
+    border-radius: 30px;
+    margin-top: 50px;
+  }
+  .blueOpacity {
+    background-color: rgba(43, 175, 203, 0.4);
+    width: 550px;
+    height: 400px;
+    margin-left: 113px;
+    border-radius: 30px;
+    margin-top: -450px;
+  }
+}
+
+/*For desktop*/
+
+@media screen and (min-width: 960px) {
+  body {
+    background: url(../../images/TeamBack.png) no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+  }
+  .logoSignIn {
+    float: right;
+    margin-top: 50px;
+    margin-right: 260px;
+  }
+  .welcome {
+    float: right;
+    margin-top: 260px;
+    margin-right: -125px;
+  }
+  .statementSignIn {
+    float: right;
+    margin-top: 300px;
+    margin-right: -280px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .signUpButton {
+    width: 12.5%;
+    margin-left: -150px;
+  }
+  .input1 {
+    margin-top: 30px;
+    border-radius: 20px;
+    width: 200px;
+    height: 22px;
+    margin-bottom: 20px;
+    margin-left: -5px;
+  }
+  .input2 {
+    margin-left: -5px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    width: 200px;
+    height: 22px;
+  }
+  .fieldSignIn {
+    margin-top: 150px;
+    margin-left: -130px;
+    color: rgb(255, 0, 0);
+  }
+  .signInButton {
+    margin-top: 50px;
+    width: 12.5%;
+    margin-left: -150px;
+  }
+  .blueSolid {
+    background-color: rgb(43, 175, 203);
+    width: 350px;
+    height: 140px;
+    margin-left: 320px;
+    border-radius: 30px;
+    margin-top: 50px;
+  }
+  .blueOpacity {
+    background-color: rgba(43, 175, 203, 0.4);
+    width: 500px;
+    height: 400px;
+    margin-left: 113px;
+    border-radius: 30px;
+    margin-top: -450px;
+  }
+}

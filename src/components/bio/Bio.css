@@ -1,0 +1,41 @@
+/* style the bio user image */
+.bio img {
+  border-radius: 10px;
+  width: 70px;
+  height: 70px;
+  margin-top: 50px;
+}
+
+/* style any input fields under the bio */
+.bio input {
+  padding: 8px 10px;
+  border-radius: 15px;
+  border: 2px solid rgb(255, 170, 50);
+  width: 86%;
+  margin-bottom: 10px;
+}
+
+/* style the buttons under the bio section */
+.bio button {
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 170, 50);
+  font-weight: bold;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 8px 20px;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.bio button:hover {
+  background-color: rgb(79, 84, 180);
+}
+
+@media screen and (min-width: 960px) {
+  /* style any input fields under the bio */
+  .bio input {
+    width: 90%;
+  }
+}

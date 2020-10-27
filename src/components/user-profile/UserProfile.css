@@ -1,0 +1,47 @@
+/*style the user profile area */
+.userProfile {
+  background-color: rgba(110, 200, 255, 0.4);
+  /*width: 400px; /* set the width of a post */
+  border: 1px solid lightgray;
+  padding: 20px 10px;
+  border-radius: 25px;
+  margin: 0 4% 25px 4%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* style the user profile image */
+.userProfile img {
+  border-radius: 10px;
+  width: 70px;
+  height: 70px;
+}
+
+/* style the user profiles unordered list */
+.userProfile ul {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* style the usersname */
+.userProfile h3 {
+  font-size: 12px;
+}
+
+@media screen and (min-width: 960px) {
+  .userProfile {
+    padding: 20px;
+    justify-content: space-around;
+  }
+
+  .userProfile h3 {
+    font-size: 20px;
+  }
+}

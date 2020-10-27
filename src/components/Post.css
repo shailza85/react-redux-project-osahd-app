@@ -1,0 +1,94 @@
+/* style the whole post container */
+
+.post {
+  background-color: rgba(110, 200, 255, 0.4);
+  /*width: 400px; /* set the width of a post */
+  border: 1px solid lightgray;
+  padding: 20px 20px 1px 20px;
+  border-radius: 25px;
+  margin: 0 4% 25px 4%;
+}
+
+/* style the div holding post author image, name and the delete button*/
+
+.post div:first-of-type {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* style the posts author name */
+
+.post div:first-of-type > p {
+  font-weight: 600;
+}
+
+/* style the post author image */
+
+.post img {
+  border-radius: 10px;
+  margin-right: 15px;
+  width: 70px;
+  height: 70px;
+}
+
+/* style the container with post title and body */
+
+.post div:nth-of-type(2) {
+  display: flex;
+  flex-direction: column;
+}
+
+/* style the button container at the bottom of the post <translate.. etc>*/
+
+.postButtons {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+  border-top: 1px solid lightgrey;
+}
+
+/* style the translate button */
+.post .postButtons button {
+  padding: 5px 10px;
+  border-radius: 8px;
+  border: none;
+  background-color: rgb(43, 175, 203);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  margin: 0 auto 15px auto;
+}
+
+.post .postButtons button:hover {
+  background-color: rgb(255, 170, 50);
+}
+
+/* style how other buttons on a post appear*/
+.post button {
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  background-color: transparent;
+  color: rgb(90, 90, 90);
+  transition: 0.5s;
+}
+
+/* set style when delete button is hovered over */
+
+.deleteButton:hover {
+  color: #e53935;
+}
+
+/* set style when translate button is hovered over */
+
+.translateButton:hover {
+  color: #0288d1;
+}
+
+@media screen and (min-width: 960px) {
+  /* style the whole post container */
+  .post {
+    margin: 0 0 25px 0;
+  }
+}

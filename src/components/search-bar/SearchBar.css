@@ -1,0 +1,28 @@
+.searchBar {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+/* style the input label */
+.searchBar label {
+  display: none; /* hide the lable */
+}
+
+/* style the search bar input field*/
+.searchBar input {
+  padding: 8px 15px;
+  border-radius: 20px;
+  border: 2px solid rgb(255, 170, 50);
+  width: 89%;
+  margin-bottom: 25px;
+}
+
+@media screen and (min-width: 960px) {
+  .searchBar {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  /* style the search bar input field*/
+  .searchBar input {
+    width: 95.3%;
+  }
+}

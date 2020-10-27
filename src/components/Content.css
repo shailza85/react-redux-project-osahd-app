@@ -1,0 +1,22 @@
+/* style the content area */
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+/* Style the refresh button */
+.refreshButton {
+  padding: 5px 10px;
+  border-radius: 8px;
+  border: none;
+  background-color: rgb(43, 175, 203);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  margin: 0 auto 15px auto;
+}
+
+.refreshButton:hover {
+  background-color: rgb(255, 170, 50);
+}
